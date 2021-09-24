@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-flow: row wrap; /* Lay out the rows and wrap them. */
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1050px;
+}
+
+.box {
+    flex: 1; /* make contents controllable with flexbox */
+    display: flex;
+    flex-flow: column;
+    max-width: 240px;
+    margin: 10px;
+    padding: 20px;
+    background-color: black;
+}
+
+.make-red {
+    background-color: red;
+}
+
+.make-blue {
+    background-color: blue;
+}
+
+.box-one {
+
+}
